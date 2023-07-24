@@ -1,0 +1,27 @@
+.about-page {
+    padding: 30px 45px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-page .title {
+    font-weight: 800;
+    line-height: 1.8;
+}
+
+.about-page .description {
+    line-height: 1.8;
+    font-size: 19px;
+    white-space: pre-wrap;
+}
+
+.about-page .title:not(:first-child) {
+    margin-top: 10px;
+}
+
+@media (max-width:815px) {
+    .about-page .title, .about-page .description {
+        line-height: 1.6;
+    }
+}

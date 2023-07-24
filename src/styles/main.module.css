@@ -1,0 +1,14 @@
+.profile-card {
+    width: 800px;
+    height: 410px;
+    border-radius: 1rem;
+    background-color: #191919;
+    overflow: auto;
+}
+
+@media (max-width:815px) {
+  .profile-card {
+    width: 100%;
+    height: auto;
+  }
+}

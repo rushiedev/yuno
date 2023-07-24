@@ -1,0 +1,57 @@
+.default {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    padding: 35px 30px;
+}
+
+.header {
+    background-color: #191919;
+    width: 500px;
+    height: 70px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .router {
+    font-size: 18px;
+    opacity: 0.65;
+    transition: all .15s;
+}
+
+.header .router:hover {
+    opacity: 1;
+}
+
+.header .router:not(:first-child) {
+    margin-left: 18px;
+}
+
+.header .router.active {
+    opacity: 1;
+}
+
+@media (max-width:815px) {
+    .default {
+        padding: 20px 30px;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .header .router {
+        font-size: 16px;
+    }
+
+    .header .router:not(:first-child) {
+        margin-left: 10px;
+    }
+}

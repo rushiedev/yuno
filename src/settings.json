@@ -1,0 +1,21 @@
+{
+    "title": "Hi, I'm Yuno!",
+    "description": "A normal developer — certified nerd.\nNice to meet you :3.",
+    "author": "yunocn",
+    "socials": {
+        "facebook": "https://www.facebook.com/natsumeyuno.cn/",
+        "github": "https://github.com/yunocn",
+        "discord": "https://discord.gg/yako",
+        "twitter": "https://twitter.com/yuno_cn"
+    },
+    "about": "I really love pixel art, anime/manga, music and coding stuff.\nI'm also a big tokusatsu fan, my favorite series is Kamen Rider Build.",
+    "skills": {
+        "HTML, CSS, JavaScript": "70%",
+        "React": "25%",
+        "PHP + MySQL": "70%",
+        "Python": "10%"
+    },
+    "projects": "Edit in src/pages/Project.jsx",
+    "background": "Change in src/img/bg.jpg",
+    "avatar": "Change in src/img/pfp.jpg"
+}
